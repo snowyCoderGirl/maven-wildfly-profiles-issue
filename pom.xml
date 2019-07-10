@@ -21,7 +21,7 @@
         <profile>
             <id>local</id>
             <properties>
-                <wildfly.home>${project.basedir}/wildfly-8.2.0.Final</wildfly.home>
+                <wildfly.home>${local.wildfly.home}</wildfly.home>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -31,6 +31,25 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>properties-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>read-project-properties</goal>
+                        </goals>
+                        <configuration>
+                            <files>
+                                <file>${project.basedir}/local.properties</file>
+                            </files>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
