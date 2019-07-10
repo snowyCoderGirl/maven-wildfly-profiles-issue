@@ -1,0 +1,280 @@
+2019-07-10 08:48:42,622 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2019-07-10 08:48:47,791 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2019-07-10 08:48:47,866 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2019-07-10 08:48:47,870 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/rachel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/0k/vp2084n1125bx1nz5t4c6f240000gp/T/
+	java.library.path = /Users/rachel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_211-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_211
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.211-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final
+	jboss.host.name = rachels-macbook-pro
+	jboss.modules.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = rachels-macbook-pro
+	jboss.qualified.host.name = rachels-macbook-pro.local
+	jboss.server.base.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone
+	jboss.server.config.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/log
+	jboss.server.name = rachels-macbook-pro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/modules
+	org.jboss.boot.log.file = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.14.5
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/jboss-modules.jar -mp /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final -Djboss.server.base.dir=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone -Djboss.server.log.dir=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/log -Djboss.server.config.dir=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue
+	user.home = /Users/rachel
+	user.language = en
+	user.name = rachel
+	user.timezone = America/Phoenix
+2019-07-10 08:48:47,871 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/configuration/logging.properties 
+2019-07-10 08:48:48,553 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2019-07-10 08:48:48,574 INFO  [org.xnio] (MSC service thread 1-9) XNIO version 3.3.0.Final
+2019-07-10 08:48:48,583 INFO  [org.xnio.nio] (MSC service thread 1-9) XNIO NIO Implementation Version 3.3.0.Final
+2019-07-10 08:48:48,606 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2019-07-10 08:48:48,607 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2019-07-10 08:48:48,608 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2019-07-10 08:48:48,608 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2019-07-10 08:48:48,608 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2019-07-10 08:48:48,609 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2019-07-10 08:48:48,626 INFO  [org.jboss.as.security] (MSC service thread 1-22) JBAS013170: Current PicketBox version=4.0.21.Final
+2019-07-10 08:48:48,639 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2019-07-10 08:48:48,649 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2019-07-10 08:48:48,659 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017502: Undertow 1.1.0.Final starting
+2019-07-10 08:48:48,659 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2019-07-10 08:48:48,668 INFO  [org.jboss.as.naming] (MSC service thread 1-14) JBAS011802: Starting Naming Service
+2019-07-10 08:48:48,667 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-07-10 08:48:48,669 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-12) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2019-07-10 08:48:48,674 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-21) JBAS010417: Started Driver service with driver-name = h2
+2019-07-10 08:48:48,714 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/welcome-content
+2019-07-10 08:48:48,737 INFO  [org.jboss.remoting] (MSC service thread 1-9) JBoss Remoting version 4.0.6.Final
+2019-07-10 08:48:48,738 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
+2019-07-10 08:48:48,795 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-21) JBAS017531: Host default-host starting
+2019-07-10 08:48:48,876 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2019-07-10 08:48:48,923 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/deployments
+2019-07-10 08:48:49,101 INFO  [org.jboss.ws.common.management] (MSC service thread 1-9) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2019-07-10 08:48:53,934 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2019-07-10 08:48:53,972 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2019-07-10 08:48:53,973 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2019-07-10 08:48:53,973 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 11606ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2019-07-10 08:48:54,094 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014900: Content added at location /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/data/content/53/02b6c1bdaebb843a7bbf0c2b62a0248c6e41f9/content
+2019-07-10 08:48:54,109 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war" (runtime-name: "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war")
+2019-07-10 08:48:54,524 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /maven-wildfly-profiles-issue-1.0-SNAPSHOT
+2019-07-10 08:48:54,562 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS018559: Deployed "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war" (runtime-name : "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war")
+2019-07-10 08:49:23,907 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017535: Unregistered web context: /maven-wildfly-profiles-issue-1.0-SNAPSHOT
+2019-07-10 08:49:23,915 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017532: Host default-host stopping
+2019-07-10 08:49:23,916 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-07-10 08:49:23,918 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-21) JBAS010418: Stopped Driver service with driver-name = h2
+2019-07-10 08:49:23,920 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017521: Undertow HTTP listener default suspending
+2019-07-10 08:49:23,924 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2019-07-10 08:49:23,925 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017506: Undertow 1.1.0.Final stopping
+2019-07-10 08:49:23,940 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 5.1.3.Final
+2019-07-10 08:49:23,986 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-18) JBAS015877: Stopped deployment maven-wildfly-profiles-issue-1.0-SNAPSHOT.war (runtime-name: maven-wildfly-profiles-issue-1.0-SNAPSHOT.war) in 88ms
+2019-07-10 08:49:23,989 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 87ms
+2019-07-10 08:49:59,717 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2019-07-10 08:50:04,875 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2019-07-10 08:50:04,931 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2019-07-10 08:50:04,936 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/rachel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/0k/vp2084n1125bx1nz5t4c6f240000gp/T/
+	java.library.path = /Users/rachel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_211-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_211
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.211-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final
+	jboss.host.name = rachels-macbook-pro
+	jboss.modules.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = rachels-macbook-pro
+	jboss.qualified.host.name = rachels-macbook-pro.local
+	jboss.server.base.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone
+	jboss.server.config.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/log
+	jboss.server.name = rachels-macbook-pro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/modules
+	org.jboss.boot.log.file = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.14.5
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/jboss-modules.jar -mp /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final -Djboss.server.base.dir=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone -Djboss.server.log.dir=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/log -Djboss.server.config.dir=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue
+	user.home = /Users/rachel
+	user.language = en
+	user.name = rachel
+	user.timezone = America/Phoenix
+2019-07-10 08:50:04,937 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/configuration/logging.properties 
+2019-07-10 08:50:05,623 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2019-07-10 08:50:05,640 INFO  [org.xnio] (MSC service thread 1-9) XNIO version 3.3.0.Final
+2019-07-10 08:50:05,646 INFO  [org.xnio.nio] (MSC service thread 1-9) XNIO NIO Implementation Version 3.3.0.Final
+2019-07-10 08:50:05,669 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2019-07-10 08:50:05,695 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2019-07-10 08:50:05,694 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2019-07-10 08:50:05,700 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2019-07-10 08:50:05,703 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2019-07-10 08:50:05,707 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2019-07-10 08:50:05,719 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-18) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2019-07-10 08:50:05,720 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2019-07-10 08:50:05,726 INFO  [org.jboss.as.security] (MSC service thread 1-10) JBAS013170: Current PicketBox version=4.0.21.Final
+2019-07-10 08:50:05,730 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-07-10 08:50:05,733 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-12) JBAS010417: Started Driver service with driver-name = h2
+2019-07-10 08:50:05,739 INFO  [org.jboss.as.naming] (MSC service thread 1-23) JBAS011802: Starting Naming Service
+2019-07-10 08:50:05,739 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-24) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2019-07-10 08:50:05,744 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2019-07-10 08:50:05,744 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017502: Undertow 1.1.0.Final starting
+2019-07-10 08:50:05,756 INFO  [org.jboss.remoting] (MSC service thread 1-9) JBoss Remoting version 4.0.6.Final
+2019-07-10 08:50:05,785 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/welcome-content
+2019-07-10 08:50:05,853 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-19) JBAS017525: Started server default-server.
+2019-07-10 08:50:05,861 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-19) JBAS017531: Host default-host starting
+2019-07-10 08:50:05,955 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2019-07-10 08:50:05,985 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/deployments
+2019-07-10 08:50:05,988 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war" (runtime-name: "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war")
+2019-07-10 08:50:06,212 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2019-07-10 08:50:10,975 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-10) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2019-07-10 08:50:11,086 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017534: Registered web context: /maven-wildfly-profiles-issue-1.0-SNAPSHOT
+2019-07-10 08:50:11,115 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war" (runtime-name : "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war")
+2019-07-10 08:50:11,121 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2019-07-10 08:50:11,122 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2019-07-10 08:50:11,122 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 11655ms - Started 249 of 304 services (92 services are lazy, passive or on-demand)
+2019-07-10 08:50:11,190 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014900: Content added at location /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/data/content/34/6dee808fe7a00d2eabfdfb9732efa7fa36fbe5/content
+2019-07-10 08:50:11,197 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017535: Unregistered web context: /maven-wildfly-profiles-issue-1.0-SNAPSHOT
+2019-07-10 08:50:11,213 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-17) HV000001: Hibernate Validator 5.1.3.Final
+2019-07-10 08:50:11,245 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment maven-wildfly-profiles-issue-1.0-SNAPSHOT.war (runtime-name: maven-wildfly-profiles-issue-1.0-SNAPSHOT.war) in 51ms
+2019-07-10 08:50:11,246 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war" (runtime-name: "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war")
+2019-07-10 08:50:11,282 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-18) JBAS017534: Registered web context: /maven-wildfly-profiles-issue-1.0-SNAPSHOT
+2019-07-10 08:50:11,311 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS018565: Replaced deployment "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war" with deployment "maven-wildfly-profiles-issue-1.0-SNAPSHOT.war"
+2019-07-10 08:50:11,312 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014901: Content removed from location /Users/rachel/IdeaProjects/maven-wildfly-profiles-issue/wildfly-8.2.0.Final/standalone/data/content/53/02b6c1bdaebb843a7bbf0c2b62a0248c6e41f9/content
+2019-07-10 08:50:23,463 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /maven-wildfly-profiles-issue-1.0-SNAPSHOT
+2019-07-10 08:50:23,468 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-24) JBAS017532: Host default-host stopping
+2019-07-10 08:50:23,471 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-07-10 08:50:23,473 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010418: Stopped Driver service with driver-name = h2
+2019-07-10 08:50:23,473 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-14) JBAS017521: Undertow HTTP listener default suspending
+2019-07-10 08:50:23,478 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-14) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2019-07-10 08:50:23,479 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017506: Undertow 1.1.0.Final stopping
+2019-07-10 08:50:23,484 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-23) JBAS015877: Stopped deployment maven-wildfly-profiles-issue-1.0-SNAPSHOT.war (runtime-name: maven-wildfly-profiles-issue-1.0-SNAPSHOT.war) in 25ms
+2019-07-10 08:50:23,486 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 25ms

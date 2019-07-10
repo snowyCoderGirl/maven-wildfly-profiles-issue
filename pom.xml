@@ -17,4 +17,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>2.0.1.Final</version>
+                <configuration>
+                    <jboss-home>${project.basedir}/wildfly-8.2.0.Final</jboss-home>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
